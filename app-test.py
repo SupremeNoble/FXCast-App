@@ -68,9 +68,9 @@ def discretize_bulk(df):
 # ----------------------- Load Models -----------------------
 @st.cache_resource
 def load_models():
-    svm = joblib.load("Models/best_discrete_svm_model.pkl")
-    rf = joblib.load("Models/best_discrete_rf_model.pkl")
-    cb = joblib.load("Models/best_discrete_catboost_model.pkl")
+    svm = joblib.load("best_discrete_svm_model.pkl")
+    rf = joblib.load("best_discrete_rf_model.pkl")
+    cb = joblib.load("best_discrete_catboost_model.pkl")
     return svm, rf, cb
 
 # Load the logo image
