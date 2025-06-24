@@ -6,3 +6,4 @@ matplotlib
 plotly
 catboost
 Pillow
+ta
